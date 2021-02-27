@@ -7,7 +7,7 @@ import { Avatar } from "@material-ui/core";
 import { useDataLayerValue } from "./DataLayer";
 
 function Header(props) {
-  const [{ user }, dispatch] = useDataLayerValue();
+  const [{ user }] = useDataLayerValue();
 
   return (
     <div className="header">
